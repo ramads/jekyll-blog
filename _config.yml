@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: ramads
+google_analytics: ramads
+title: Rama Saputra
+baseurl: '/blog'
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Rama Saputra
+
+description: Stylish Jekyll Theme
+author:
+  name: rama
+  email: rama.saputra@elektro08.com
+  github: ramads
+  linkedin: ramaditia-dwiyansaputra-623992130
+  bio: 
+  email_md5: 2dc02e5642ad68c83e29a702455314bd
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH: '/blog'
+
+plugins:
+  - jekyll-paginate
